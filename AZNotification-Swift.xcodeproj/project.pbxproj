@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D70B2CA19423B88003EDF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70B2C919423B88003EDF91 /* AppDelegate.swift */; };
+		8D70B2CC19423B88003EDF91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70B2CB19423B88003EDF91 /* ViewController.swift */; };
+		8D70B2CF19423B88003EDF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D70B2CD19423B88003EDF91 /* Main.storyboard */; };
+		8D70B2D119423B88003EDF91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D70B2D019423B88003EDF91 /* Images.xcassets */; };
+		8D70B2DD19423B88003EDF91 /* AZNotification_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70B2DC19423B88003EDF91 /* AZNotification_SwiftTests.swift */; };
+		8D70B2EA19423BC1003EDF91 /* AZNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70B2E719423BC1003EDF91 /* AZNotification.swift */; };
+		8D70B2EB19423BC1003EDF91 /* AZNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70B2E919423BC1003EDF91 /* AZNotificationView.swift */; };
+		8D70B2EF19423BCE003EDF91 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D70B2EE19423BCE003EDF91 /* UIColor+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D70B2D719423B88003EDF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D70B2BC19423B88003EDF91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D70B2C319423B88003EDF91;
+			remoteInfo = "AZNotification-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D70B2C419423B88003EDF91 /* AZNotification-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AZNotification-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D70B2C819423B88003EDF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D70B2C919423B88003EDF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D70B2CB19423B88003EDF91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D70B2CE19423B88003EDF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D70B2D019423B88003EDF91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D70B2D619423B88003EDF91 /* AZNotification-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AZNotification-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D70B2DB19423B88003EDF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D70B2DC19423B88003EDF91 /* AZNotification_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZNotification_SwiftTests.swift; sourceTree = "<group>"; };
+		8D70B2E719423BC1003EDF91 /* AZNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZNotification.swift; sourceTree = "<group>"; };
+		8D70B2E919423BC1003EDF91 /* AZNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZNotificationView.swift; sourceTree = "<group>"; };
+		8D70B2EC19423BCD003EDF91 /* AZNotification-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZNotification-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D70B2ED19423BCE003EDF91 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		8D70B2EE19423BCE003EDF91 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D70B2C119423B88003EDF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D70B2D319423B88003EDF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D70B2BB19423B88003EDF91 = {
+			isa = PBXGroup;
+			children = (
+				8D70B2C619423B88003EDF91 /* AZNotification-Swift */,
+				8D70B2D919423B88003EDF91 /* AZNotification-SwiftTests */,
+				8D70B2C519423B88003EDF91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D70B2C519423B88003EDF91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D70B2C419423B88003EDF91 /* AZNotification-Swift.app */,
+				8D70B2D619423B88003EDF91 /* AZNotification-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D70B2C619423B88003EDF91 /* AZNotification-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8D70B2E619423B91003EDF91 /* AZNotification */,
+				8D70B2C919423B88003EDF91 /* AppDelegate.swift */,
+				8D70B2CB19423B88003EDF91 /* ViewController.swift */,
+				8D70B2CD19423B88003EDF91 /* Main.storyboard */,
+				8D70B2D019423B88003EDF91 /* Images.xcassets */,
+				8D70B2C719423B88003EDF91 /* Supporting Files */,
+			);
+			path = "AZNotification-Swift";
+			sourceTree = "<group>";
+		};
+		8D70B2C719423B88003EDF91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D70B2C819423B88003EDF91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D70B2D919423B88003EDF91 /* AZNotification-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D70B2DC19423B88003EDF91 /* AZNotification_SwiftTests.swift */,
+				8D70B2DA19423B88003EDF91 /* Supporting Files */,
+			);
+			path = "AZNotification-SwiftTests";
+			sourceTree = "<group>";
+		};
+		8D70B2DA19423B88003EDF91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D70B2DB19423B88003EDF91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D70B2E619423B91003EDF91 /* AZNotification */ = {
+			isa = PBXGroup;
+			children = (
+				8D70B2ED19423BCE003EDF91 /* UIColor+Additions.h */,
+				8D70B2EE19423BCE003EDF91 /* UIColor+Additions.m */,
+				8D70B2E719423BC1003EDF91 /* AZNotification.swift */,
+				8D70B2E919423BC1003EDF91 /* AZNotificationView.swift */,
+				8D70B2EC19423BCD003EDF91 /* AZNotification-Swift-Bridging-Header.h */,
+			);
+			name = AZNotification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D70B2C319423B88003EDF91 /* AZNotification-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D70B2E019423B88003EDF91 /* Build configuration list for PBXNativeTarget "AZNotification-Swift" */;
+			buildPhases = (
+				8D70B2C019423B88003EDF91 /* Sources */,
+				8D70B2C119423B88003EDF91 /* Frameworks */,
+				8D70B2C219423B88003EDF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AZNotification-Swift";
+			productName = "AZNotification-Swift";
+			productReference = 8D70B2C419423B88003EDF91 /* AZNotification-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D70B2D519423B88003EDF91 /* AZNotification-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D70B2E319423B88003EDF91 /* Build configuration list for PBXNativeTarget "AZNotification-SwiftTests" */;
+			buildPhases = (
+				8D70B2D219423B88003EDF91 /* Sources */,
+				8D70B2D319423B88003EDF91 /* Frameworks */,
+				8D70B2D419423B88003EDF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D70B2D819423B88003EDF91 /* PBXTargetDependency */,
+			);
+			name = "AZNotification-SwiftTests";
+			productName = "AZNotification-SwiftTests";
+			productReference = 8D70B2D619423B88003EDF91 /* AZNotification-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D70B2BC19423B88003EDF91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "AzamSharp Consulting LLC";
+				TargetAttributes = {
+					8D70B2C319423B88003EDF91 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8D70B2D519423B88003EDF91 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8D70B2C319423B88003EDF91;
+					};
+				};
+			};
+			buildConfigurationList = 8D70B2BF19423B88003EDF91 /* Build configuration list for PBXProject "AZNotification-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D70B2BB19423B88003EDF91;
+			productRefGroup = 8D70B2C519423B88003EDF91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D70B2C319423B88003EDF91 /* AZNotification-Swift */,
+				8D70B2D519423B88003EDF91 /* AZNotification-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D70B2C219423B88003EDF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D70B2CF19423B88003EDF91 /* Main.storyboard in Resources */,
+				8D70B2D119423B88003EDF91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D70B2D419423B88003EDF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D70B2C019423B88003EDF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D70B2EF19423BCE003EDF91 /* UIColor+Additions.m in Sources */,
+				8D70B2EB19423BC1003EDF91 /* AZNotificationView.swift in Sources */,
+				8D70B2EA19423BC1003EDF91 /* AZNotification.swift in Sources */,
+				8D70B2CC19423B88003EDF91 /* ViewController.swift in Sources */,
+				8D70B2CA19423B88003EDF91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D70B2D219423B88003EDF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D70B2DD19423B88003EDF91 /* AZNotification_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D70B2D819423B88003EDF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D70B2C319423B88003EDF91 /* AZNotification-Swift */;
+			targetProxy = 8D70B2D719423B88003EDF91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D70B2CD19423B88003EDF91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D70B2CE19423B88003EDF91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D70B2DE19423B88003EDF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D70B2DF19423B88003EDF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D70B2E119423B88003EDF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AZNotification-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZNotification-Swift/AZNotification-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D70B2E219423B88003EDF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AZNotification-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZNotification-Swift/AZNotification-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8D70B2E419423B88003EDF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZNotification-Swift.app/AZNotification-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AZNotification-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8D70B2E519423B88003EDF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZNotification-Swift.app/AZNotification-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AZNotification-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D70B2BF19423B88003EDF91 /* Build configuration list for PBXProject "AZNotification-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D70B2DE19423B88003EDF91 /* Debug */,
+				8D70B2DF19423B88003EDF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D70B2E019423B88003EDF91 /* Build configuration list for PBXNativeTarget "AZNotification-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D70B2E119423B88003EDF91 /* Debug */,
+				8D70B2E219423B88003EDF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D70B2E319423B88003EDF91 /* Build configuration list for PBXNativeTarget "AZNotification-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D70B2E419423B88003EDF91 /* Debug */,
+				8D70B2E519423B88003EDF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D70B2BC19423B88003EDF91 /* Project object */;
+}
