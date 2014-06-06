@@ -1,7 +1,7 @@
 <h1>AZNotification-Swift</h1>
 
 <p>
-AZNotification is a custom control which allows the user to provide user interface notifications to the user. AZNotification is implemented for iOS 7 framework and utilizes the UIKit Dynamics to create the physics effects. 
+AZNotification-Swift is a Swift implementation of a custom control which allows the user to provide user interface notifications to the user. AZNotification is implemented for iOS 7,8 framework and utilizes the UIKit Dynamics to create the physics effects. 
 </p>
 
 <h2>Screenshot</h2>
