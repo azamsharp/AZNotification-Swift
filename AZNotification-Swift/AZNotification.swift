@@ -12,9 +12,11 @@ import UIKit
 
 class AZNotification
 {
-    class func showNotificationWithTitle(title :String, var controller :UIViewController, notificationType :AZNotificationType)
+    class func showNotificationWithTitle(title :String, var controller :UIViewController!, notificationType :AZNotificationType)
     {
-        controller = controller.navigationController ? controller.navigationController : controller
+        if controller.navigationController != nil {
+            controller = controller.navigationController
+        }
         
         let azNotificationView = AZNotificationView(title: "Success", referenceView: controller.view, notificationType: .Success)
 
