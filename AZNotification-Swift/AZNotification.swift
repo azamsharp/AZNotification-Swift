@@ -12,9 +12,11 @@ import UIKit
 
 class AZNotification
 {
-    class func showNotificationWithTitle(title :String, var controller :UIViewController, notificationType :AZNotificationType)
+    class func showNotificationWithTitle(title :String, var controller :UIViewController!, notificationType :AZNotificationType)
     {
-        controller = controller.navigationController ? controller.navigationController : controller
+        if controller.navigationController != nil {
+            controller = controller.navigationController
+        }
         
         let azNotificationView = AZNotificationView(title: "Success", referenceView: controller.view, notificationType: .Success)
 
@@ -22,7 +24,7 @@ class AZNotification
         azNotificationView.applyDynamics()
     }
     
-    class func showNotificationWithTitle(title :String, var controller :UIViewController, notificationType :AZNotificationType, shouldShowNotificationUnderNavigationBar :Bool)
+    class func showNotificationWithTitle(title :String, controller :UIViewController, notificationType :AZNotificationType, shouldShowNotificationUnderNavigationBar :Bool)
     {
         let azNotificationView = AZNotificationView(title: title, referenceView: controller.view, notificationType: notificationType, showNotificationUnderNavigationBar: shouldShowNotificationUnderNavigationBar)
         

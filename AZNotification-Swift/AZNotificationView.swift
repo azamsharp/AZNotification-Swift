@@ -34,6 +34,10 @@ class AZNotificationView : UIView
     var collision = UICollisionBehavior()
     var itemBehavior = UIDynamicItemBehavior()
     var notificationType = AZNotificationType.Success
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 
     init(title :String, referenceView :UIView, notificationType :AZNotificationType)
     {
@@ -64,7 +68,7 @@ class AZNotificationView : UIView
     
     func applyDynamics()
     {
-        var boundaryYAxis :CGFloat = showNotificationUnderNavigationBar == true ? 2 : 1
+        let boundaryYAxis :CGFloat = showNotificationUnderNavigationBar == true ? 2 : 1
         animator = UIDynamicAnimator(referenceView: referenceView)
         gravity = UIGravityBehavior(items:[self])
         collision = UICollisionBehavior(items: [self])
@@ -103,19 +107,17 @@ class AZNotificationView : UIView
         switch notificationType
         {
         case .Success:
-            backgroundColor = UIColor(fromHexString: NotificationColors.Success.toRaw())
+            backgroundColor = UIColor(fromHexString: NotificationColors.Success.rawValue)
 
         case .Error:
-            backgroundColor = UIColor(fromHexString: NotificationColors.Error.toRaw())
+            backgroundColor = UIColor(fromHexString: NotificationColors.Error.rawValue)
             
         case .Warning:
-            backgroundColor = UIColor(fromHexString: NotificationColors.Warning.toRaw())
+            backgroundColor = UIColor(fromHexString: NotificationColors.Warning.rawValue)
             
         case .Message:
-            backgroundColor = UIColor(fromHexString: NotificationColors.Message.toRaw())
+            backgroundColor = UIColor(fromHexString: NotificationColors.Message.rawValue)
             
-        default:
-             backgroundColor =  UIColor(fromHexString: NotificationColors.Success.toRaw())
         }
 
     }
