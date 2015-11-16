@@ -35,7 +35,7 @@ class AZNotificationView : UIView
     var itemBehavior = UIDynamicItemBehavior()
     var notificationType = AZNotificationType.Success
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 
@@ -68,7 +68,7 @@ class AZNotificationView : UIView
     
     func applyDynamics()
     {
-        var boundaryYAxis :CGFloat = showNotificationUnderNavigationBar == true ? 2 : 1
+        let boundaryYAxis :CGFloat = showNotificationUnderNavigationBar == true ? 2 : 1
         animator = UIDynamicAnimator(referenceView: referenceView)
         gravity = UIGravityBehavior(items:[self])
         collision = UICollisionBehavior(items: [self])
@@ -118,8 +118,6 @@ class AZNotificationView : UIView
         case .Message:
             backgroundColor = UIColor(fromHexString: NotificationColors.Message.rawValue)
             
-        default:
-             backgroundColor =  UIColor(fromHexString: NotificationColors.Success.rawValue)
         }
 
     }

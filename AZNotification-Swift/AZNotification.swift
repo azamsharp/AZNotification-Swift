@@ -24,7 +24,7 @@ class AZNotification
         azNotificationView.applyDynamics()
     }
     
-    class func showNotificationWithTitle(title :String, var controller :UIViewController, notificationType :AZNotificationType, shouldShowNotificationUnderNavigationBar :Bool)
+    class func showNotificationWithTitle(title :String, controller :UIViewController, notificationType :AZNotificationType, shouldShowNotificationUnderNavigationBar :Bool)
     {
         let azNotificationView = AZNotificationView(title: title, referenceView: controller.view, notificationType: notificationType, showNotificationUnderNavigationBar: shouldShowNotificationUnderNavigationBar)
         

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBAction
     func showAzNotification(sender :AnyObject)
     {
-        var button = sender as! UIButton
+        let button = sender as! UIButton
         
         switch button.tag
         {
